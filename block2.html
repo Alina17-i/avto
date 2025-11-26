@@ -9,6 +9,58 @@
 </head>
 <body>
     <div class="container">
+
+
+        <!--HEADER-->
+        <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.svg" alt="logo" height="30">
+                </a>
+ 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Автомобили</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Бронирование</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+        <!--BLOCK 1-->
+        <div class="row">
+          <section class="main">
+            <div class="main-info" >
+                <div class="col-md-8 offset-md-2">
+                 <h1 class="main-title" >  
+                  Аренда премиальных автомобилей
+                 </h1>
+                 <div class="main-text">
+                    В&nbsp;нашем клубе имеется солидная коллекция спортивных автомобилей&nbsp;&mdash; от&nbsp;достаточно распространенных серийных машин до&nbsp;настоящего гоночного эксклюзива. Воспользуйтесь уникальной возможностью побывать за&nbsp;рулем настоящей легенды и&nbsp;узнать, на&nbsp;что она способна за&nbsp;пределами гоночной трассы!
+                 </div>
+                 <div class="main-action">
+                 <button class="button" id="main-action" >Посмотреть автомобили</button>
+                 </div>
+                </div>
+            </div>
+       
+    </section>
+        </div>
+
+        <!--BLOCK 1-->
         <div class="block2">
             <h2 class="sub-title">Наш автопарк</h2>
 
@@ -189,6 +241,75 @@
                 </div>
             </div>
         </div>
+
+
+
+        <!--BLOCK 3-->
+
+
+        <section class="price py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-12 ">
+            <h2 class="sub-title mb-3">
+              Узнать цену и&nbsp;забронировать
+            </h2>
+            <p class="price-text mb-7">
+              Заполните данные, и&nbsp;мы&nbsp;перезвоним вам для уточнения всех
+              деталей бронирования
+            </p>
+
+            <form action="#" class="price-form">
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="price-input form-control"
+                  placeholder="Ваше имя"
+                  id="name" required>
+              </div>
+              <div class="mb-3">
+                <input
+                  type="tel"
+                  class="price-input form-control"
+                  placeholder="Ваш телефон"
+                  id="tel" required>
+              </div>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="price-input form-control"
+                  placeholder="Автомобиль, который вас интересует"
+                  id="car" required>
+              </div>
+              <button class="button" type="submit">Узнать цену</button>
+            </form>
+          </div>
+          <div class="col-lg-6 mt-4 mt-lg-0 text-center">
+            <img
+              src="img/rolls.png"
+              alt="rolls"
+              class="price-image img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!--FOOTER-->
+
+    <footer class="footer text-light py-3 mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 c">
+                    <img src="img/logo.svg" alt="Логотип" height="25" class="d-inline-block align-text-top">
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <span class="rights">Все права защищены</span>
+                </div>
+            </div>
+        </div>
+    </footer>
         
     </div>
 
