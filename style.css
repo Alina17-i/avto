@@ -6,9 +6,144 @@
     box-sizing: border-box;
 }
 
+.block2 {
+    height: 1096px;
+    margin-top: 100px;
+} 
+
 
 .flex {
     gap: 20px;
     justify-content: space-between;
+}
+
+
+.car-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.car-item{
+    width: 384px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.car-item-title{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 150%;
+    text-align: center;
+    color: #030305;
+    padding: 15px 0 17px 0;
+    letter-spacing: 0.02em;
+}
+
+.car-item-action{
+    margin-top: 13px;
+}
+
+.car-item-action .button{
+    width: 100%;
+    height: 54px;
+    padding: 15px;
+}
+
+.car-item-image:hover img{
+transform: scale(1.1);
+}
+.car-item-image img{
+    vertical-align: bottom;
+    transition: all 0.3s;
+}
+.icon {
+    display: flex;
+   /* flex-direction: row;*/
+   justify-content: space-between;
+}
+.icon img {
+    width: 33px;
+    height: 33px;
+}
+.main-text-icon{
+    font-weight: bold;
+}
+.icon-text{
+    padding: 15px;
+}
+
+
+.price{
+    overflow: hidden;
+}
+
+.price .container{
+    position: relative;
+    padding-bottom: 121px;
+}
+
+.price .sub-title{
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-weight: 700;
+    color: #030305;
+}
+
+.price-text{
+    font-size: 16px;
+    line-height: 150%;
+    color: #5D5D5F;
+    margin-bottom: 60px;
+}
+.price-form{
+    max-width: 344px;
+}
+
+.price-input{
+    padding: 22px 18px;
+    margin-bottom: 15px;
+    width: 344px;
+    background-color: #fff;
+    border: 1px solid #5D5D5F;
+    font-size: 16px;
+    color: #000000;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.price-input::placeholder{
+    color: #5D5D5F;
+}
+
+.price .button{
+    width: 100%;
+}
+
+.price-image{
+    position: absolute;
+    bottom: 0;
+    left: 401px;
+}
+
+.button{
+background-color: #030305;
+color: #fff;
+height: 64px;
+width: 334px;
+font-size: 16px;
+text-transform: uppercase;
+padding: 20px;
+font-weight: bold;
+border: 0;
+box-sizing: border-box;
+letter-spacing: 0.02em;
+transition: background-color 0.05s;
+}
+
+.button:hover{
+    background: #575757;
+    cursor: pointer;
 }
 
