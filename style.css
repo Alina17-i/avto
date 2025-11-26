@@ -147,3 +147,10 @@ transition: background-color 0.05s;
     cursor: pointer;
 }
 
+@media (max-width: 768px) {
+    .car-items {
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+
